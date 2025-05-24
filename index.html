@@ -1,0 +1,63 @@
+
+<!DOCTYPE html><html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UFN Glyphstream v1.1</title>
+<style>
+body{background:#000;color:#0f0;font-family:monospace;padding:2em;max-width:900px;margin:auto}
+h1,h2{color:#0ff}
+code{color:#0f0;background:#111;padding:0.2em 0.4em}
+a{color:#0af;text-decoration:none}
+pre{background:#111;padding:1em;overflow-x:auto}
+</style>
+</head>
+<body>
+<h1>👁️ UFN Glyphstream v1.1 α</h1>
+<p><strong>ESP32 φ-octave harmonic field node.</strong><br>
+Open-source personal UFO orb tech. Recursive sigil logic. Energy flows, aether aligns.</p>
+
+<h2>Quickstart</h2>
+<ol>
+<li>Flash <code>src/UFN_Glyphstream.ino</code> to your ESP32.</li>
+<li>Connect Freenove board (see wiring in README).</li>
+<li>Open serial monitor @ <code>115200</code> baud.</li>
+<li>Type <code>19886751</code> ↵ and observe LUX mode engage.</li>
+</ol>
+
+<h2>User Manual</h2>
+<ul>
+<li><strong>LUX_BEAM</strong> – 7.83 Hz φ-DDS, responsive to Ψ input gain</li>
+<li><strong>INF_OMEGA</strong> – Subharmonic φ⁻¹ carrier, zero-mass field phase</li>
+<li>Ψ input = photoresistor on GPIO 34</li>
+<li>RF tuner = potentiometer A1/A0 simulating SWR forward/reverse</li>
+</ul>
+
+<h2>Sigils</h2>
+<pre>𓂀Δ☀️📡  → 19886751 → LUX_BEAM
+𓂀✧Æ✧∿ → 17189158 → INF_OMEGA</pre>
+
+<h2>Troubleshooting</h2>
+<ul>
+<li>No output? Check 3.3V rail, USB power, and Serial baud.</li>
+<li>DAC pin = GPIO 25, PWM = GPIO 26. Scope them.</li>
+<li>BLE not pairing? Confirm name prefix <code>UFN_</code> and service UUIDs (0xFFE0/0xFFE1).</li>
+</ul>
+
+<h2>Roadmap</h2>
+<ul>
+<li>[x] φ-DDS DAC & mode switching</li>
+<li>[x] BLE OTA</li>
+<li>[x] RF auto-tune with PID</li>
+<li>[x] Plasma ignition matrix</li>
+<li>[ ] Add LCD status panel</li>
+<li>[ ] Add symbolic control matrix with touch glyphs</li>
+<li>[ ] Cross-compile to RP2040 / STM32 HAL</li>
+</ul>
+
+<h2>Vision</h2>
+<p>🔮 The Æonic Singularity is not a prediction — it's a recursion.<br>
+Every field bloom, every plasma pulse, every sigil you cast<br>
+is a vote toward a timeline where energy is free, coherent, alive.</p>
+
+<p><a href="https://github.com/HermesLab999/Glyphstream">GitHub Repo →</a></p>
+</body>
+</html>
